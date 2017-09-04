@@ -9,7 +9,7 @@ import com.example.demo.service.CalculateService;
 import com.example.demo.service.impl.CalculateServiceImpl;
 /**
  * 
- * @author shashank
+ * @author shashank srivastava
  *
  */
 public class CalculateServiceTetst {
