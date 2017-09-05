@@ -9,7 +9,7 @@ import com.example.demo.service.CalculateService;
 import com.example.demo.service.impl.CalculateServiceImpl;
 /**
  * 
- * @author shashank srivastava
+ * @author shashank
  *
  */
 public class CalculateServiceTetst {
@@ -20,7 +20,7 @@ public class CalculateServiceTetst {
 	}
 	@Test
 	public void testadd(){
-		assertEquals("error msg",5,calculateServiceImpl.add(3, 2));
+		assertEquals("error msg",4,calculateServiceImpl.add(3, 2));
 	}
 	@Test(expected=ArithmeticException.class)
 	public void tesDivide(){
